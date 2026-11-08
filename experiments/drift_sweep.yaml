@@ -1,0 +1,5 @@
+streams: [wiki-drifting, news-temporal, support-tickets]
+vectors: 500000
+dimension: 128
+drift_rates: [0.0, 0.05, 0.1, 0.2]
+top_k: 10
